@@ -1,0 +1,474 @@
+/*------------------------------------------------------------------*/ 
+/*	3) Note: Design for a width of 320 px
+/*------------------------------------------------------------------*/
+@media only screen and (min-width: 200px) and (max-width: 479px){
+
+/*------------------------------------------------------------------*/ 
+/*	1) Header
+/*------------------------------------------------------------------*/
+.logo{margin-left:0; width:100%; text-align:center;}
+.logo img{max-width:300px;}
+.search{margin:0 40px 10px 0;}
+.device-menu{ display:block; margin-top:10px;}
+ul.sf-menu { display:none; }
+
+/*------------------------------------------------------------------*/ 
+/*	3) Slider
+/*------------------------------------------------------------------*/
+.main-slider {
+	width:300px;
+	margin:0;
+}
+.slider2, .slider3{
+	display:none;
+}
+/*------------------------------------------------------------------*/ 
+/*	3) HEADER
+/*------------------------------------------------------------------*/
+/*----Logo-----------*/ 
+.logo{
+	float:left;
+	width:auto;
+	height:auto;
+	margin:0px 0 0px 0;
+}
+.logo img{
+	width: 285px;
+	height : 100px;
+}
+/*----Logo-----------*/
+/*Link Đăng Ký Đăng Nhâp*/
+.righthead {
+    float:right;
+    padding:0px 65px 0px 0px;
+}
+.righthead ul.links{
+    float:right;
+    list-style:none;
+}
+.righthead ul.links li{
+    float:left;
+    padding-left:2px;
+}
+.righthead ul.links li a{
+   
+    height:17px; 
+    border-radius:3px;
+    padding:3px 10px 0px 10px;
+    border:solid 1px transparent;
+    font-family: "Times New Roman", Georgia, Serif; 
+	font-size: 14px;
+	color: green;
+	font-weight: bold;
+}
+.righthead ul.links li a:hover, .righthead ul.links li a.colr{
+    text-decoration: none;
+    border:#e1e1e1 solid 1px;
+    background:url(../img/buttonone.gif) repeat-x;
+}
+
+.righthead ul.links li ul
+{
+	list-style-type:none; 
+	display: none;
+}
+.righthead ul.links li ul li 
+{
+	margin-top: 5px;
+}
+.righthead ul.links li ul li a
+{
+	color: black;
+	font-weight: bold;
+}
+.righthead ul.links li:hover ul
+{
+	/*
+	position: absolute;
+	display: inline;
+	*/
+	position: absolute;
+	display:table-caption;
+}
+/*Link Đăng Ký Đăng Nhâp*/
+/*****ĐĂNG NHẬP*******************/
+  .loginbox {
+    position:absolute;
+    width:270px;
+    padding:4px;
+    background-color:#fffae7;
+    -moz-box-shadow:0px 0px 2px 1px #666;
+    -webkit-box-shadow:0px 0px 2px 1px #666;
+    box-shadow:0px 0px 2px 1px #666;
+    border-radius:2px;
+    z-index:999;
+    margin:25px 0px 0px -40px;
+    display: none;
+}
+a#thoat_login{
+	margin-left: 50px;
+}
+.loginbox h5{
+    width:270px;
+    height:25px;
+    color:#FFF;
+    font-weight:bold;
+    text-align: center;
+    border-bottom: 1px solid #CCC;
+}
+.loginbox ul{
+    width:270px;
+    padding:8px 0px 0px 0px;
+    list-style:none;
+}
+.loginbox ul li{
+    width:270px;
+    padding:2px 0px;
+}
+.loginbox ul li input.bar{
+    width:270px;
+    height:23px;
+}
+.loginbox ul li a.forgot{
+    background:url(../img/forgot.gif) no-repeat 0px 0px;
+    display:inline-block;
+    margin:0px -35px 0px 0px;
+}
+
+.txt_login
+{
+	/*border:1px solid black;*/
+	width: 250px !important;
+}
+#quen_mat_khau{
+	display: none;
+}
+
+#submit_dangnhap
+{
+	margin-left :77px;
+	border-radius:5px;
+	width: 120px;
+	height: 30px;
+}
+/*****ĐĂNG NHẬP*******************/
+/****************ĐĂNG KÝ ***************/
+   .registerbox {
+    position:absolute;
+    width:230px;
+    padding:4px;
+    background-color:#fffae7;
+    -moz-box-shadow:0px 0px 2px 1px #666;
+    -webkit-box-shadow:0px 0px 2px 1px #666;
+    box-shadow:0px 0px 2px 1px #666;
+    border-radius:2px;
+    z-index:999;
+   display: none; 
+   margin:25px -130px 0px 0px;
+   
+}
+a#thoat_register{
+	color: red;
+	margin-left: 20px;
+}
+a#thoat_register:hover{
+	color:black;
+}
+.registerbox h5{
+    width:230px;
+    height:25px;
+    color:#FFF;
+    font-weight:bold;
+    text-align: center;
+    border-bottom: 1px solid #CCC;
+}
+.registerbox ul{
+    width:242px;
+    padding:8px 0px 0px 0px;
+    list-style:none;
+}
+.registerbox ul li{
+    width:242px;
+    padding:2px 0px;
+}
+.registerbox ul li input.bar{
+    width:230px;
+    height:23px;
+    float:left;
+    background:#FFF;
+    border:#d3d3d3 solid 1px;
+    border-radius:2px;
+    margin-bottom:5px;
+}
+.registerbox ul li a.forgot{
+    background:url(../img/forgot.gif) no-repeat 0px 0px;
+    padding:0px 0px 0px 16px;
+    display:inline-block;
+    margin:0px 0px 5px 0px;
+}
+.registerbox ul li input.go{
+    float:left;
+    width:58px;
+    padding:4px 0px 5px 0px;
+    border:none;
+    text-align:center;
+    color:#FFF;
+    font-size:12px;
+    font-weight:bold;
+    font-family: 'Ubuntu', sans-serif;
+    display:block;
+    margin:1px 1px 0px 0px;
+    cursor:pointer;
+    border:none;
+    border-radius:2px;
+}
+#submit_dangky
+{
+	margin-left :60px;
+	border-radius:5px;
+	width: 120px;
+	height: 30px;
+}
+#submit_dangky:hover
+{
+	background-color:red;  
+}
+.txt_register
+{
+	/*border:1px solid black;*/
+	width: 230px !important;
+}
+.error_register{
+	font-family: 'Times New Roman', Times, serif;
+	margin-left : 20px;
+    font-size: 12px;
+    color: red;
+}
+/****************ĐĂNG KÝ ***************/
+/****************Edit******************/
+/*Xử lý form edit user*/
+   .edit_userbox {
+    position:absolute;
+    width:260px;
+  
+    background-color:#fffae7;
+    -moz-box-shadow:0px 0px 2px 1px #666;
+    -webkit-box-shadow:0px 0px 2px 1px #666;
+    box-shadow:0px 0px 2px 1px #666;
+    border-radius:2px;
+    z-index:999;
+   display: none;
+   margin:80px 0px 0px 0px;
+   
+}
+
+a#thoat_edit{
+	color: red;
+	margin-left: 50px;
+}
+
+span#edit_success
+{
+   color:green;margin-left:50px;
+}
+.edit_userbox h5{
+    width:260px;
+    height:25px;
+    color:#FFF;
+    font-weight:bold;
+    text-align: center;
+    border-bottom: 1px solid #CCC;
+}
+.edit_userbox ul{
+    width:242px;
+    padding:8px 0px 0px 0px;
+    list-style:none;
+}
+.edit_userbox ul li{
+    width:242px;
+    padding:2px 0px;
+}
+.edit_userbox ul li input.bar{
+    width:260px;
+    height:23px;
+    float:left;
+    background:#FFF;
+    border:#d3d3d3 solid 1px;
+    border-radius:2px;
+    margin-bottom:5px;
+}
+.edit_userbox ul li a.forgot{
+    background:url(../img/forgot.gif) no-repeat 0px 0px;
+    padding:0px 0px 0px 16px;
+    display:inline-block;
+    margin:0px 0px 5px 0px;
+}
+.edit_userbox ul li input.go{
+    float:left;
+    width:58px;
+    padding:4px 0px 5px 0px;
+    border:none;
+    text-align:center;
+    color:#FFF;
+    font-size:12px;
+    font-weight:bold;
+    font-family: 'Ubuntu', sans-serif;
+    display:block;
+    margin:1px 1px 0px 0px;
+    cursor:pointer;
+    border:none;
+    border-radius:2px;
+}
+#submit_edit
+{
+	margin-left :70px;
+	border-radius:5px;
+	width: 120px;
+	height: 30px;
+}
+#submit_edit:hover
+{
+	background-color:red;  
+}
+.txt_edit
+{
+	/*border:1px solid black;*/
+	width: 260px !important;
+}
+.error_edit{
+	font-family: 'Times New Roman', Times, serif;
+	margin-left : 10px;
+    font-size: 10px;
+    color: red;
+}
+/****************Edit******************/
+/*----Search-------*/
+.search{
+	background:#fafafa;
+	width:280px;
+	float:right;
+	margin-top:50px;
+	margin-right:15px;
+}
+.search .ft{
+	background:none;
+	padding:5px;
+	margin:4px 0 0 5px;
+	width:200px;
+	color:#898989;
+}
+.search .fs{
+	background:#ea4748 url(../../img/search.png) no-repeat center;
+	border:none;
+	margin:0;
+	height:40px;
+	width:43px;
+	float:right;
+}
+.device-menu{
+	width:285px;
+}
+/*------------------------------------------------------------------*/ 
+/*	2) SLIDER
+/*------------------------------------------------------------------*/
+#slider{
+	float:left;
+	clear:both;
+	max-width:100% !important;
+	margin-bottom:30px;
+}
+.main-slider{
+	width: 280px !important;
+	margin:0 10px;
+	height:auto;
+	float:left;
+}
+
+/*------------------------------------------------------------------*/ 
+/*	3) HEADER
+/*------------------------------------------------------------------*/
+/*------------------------------------------------------------------*/ 
+/*	3) Content
+/*------------------------------------------------------------------*/
+.main-content{
+	width:100%;
+}
+.outertight{
+	width:100%;
+	margin-right:0;
+}
+.outertight img{
+	max-width:100%;
+}
+.outerwide{
+	width:100%;
+}
+.wnews li{
+	width:300px;
+}
+.wnews li img{
+	max-width:140px;
+}
+
+.block2 li{
+	width:100%;
+	margin-right:0;
+}
+.relatednews ul li:nth-child(2n){
+	margin-right:0;
+}
+
+/*Form bên right slidebar*/
+.form_dangnhap
+{
+	height:260px;
+	border:1px solid #CCC;
+	width: 276px;
+}
+.login_input{
+	float:left;
+	width: 250px;
+	margin:4px 0;
+	padding:8px 5px;
+	background:none;
+	border:1px solid #dbdbdb;
+	color:#c5c5c5;
+	clear:both;
+}
+.login_input #email,#password
+{
+	width: 250px;
+}
+/*Form bên right slidebar*/
+/*------------------------------------------------------------------*/ 
+/*	4) Comments
+/*------------------------------------------------------------------*/
+.commment-text-wrap{
+	width:180px;
+}
+ul.children li div.commment-text-wrap{
+	width:180px;
+}
+ul.children li li div.commment-text-wrap{
+	width:180px;
+}
+ul.children li li li div.commment-text-wrap{
+	width:180px;
+}
+ul.children{
+	margin-left:0;
+	border:0;
+	margin-left:-19px;
+}
+.form textarea{
+	width:278px;
+}
+
+}
+
+/*map liên hệ*/
+
+#map_lienhe{
+	width: 279px;
+	height: 300px;
+}

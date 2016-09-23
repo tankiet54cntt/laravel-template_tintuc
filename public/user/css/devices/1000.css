@@ -1,0 +1,258 @@
+/*------------------------------------------------------------------*/ 
+/*	1) Note: Design for a width of 768 px
+/*------------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+/*------------------------------------------------------------------*/ 
+/*	1) Header
+/*------------------------------------------------------------------*/
+.logo{margin-left:0;}
+.logo img{
+	width: 500px;
+	height : 100px;
+}
+.search{
+	background:#fafafa;
+	width:350px;
+	float:right;
+	margin-top:50px;
+	margin-right:5px;
+}
+.search .ft{
+	background:none;
+	padding:5px;
+	margin:4px 0 0 5px;
+	width:200px;
+	color:#898989;
+}
+ul.sf-menu { display:none; }
+.device-menu{ display:block; }
+
+
+ .loginbox {
+    position:absolute;
+    width:230px;
+    padding:4px;
+    background-color:#fffae7;
+    -moz-box-shadow:0px 0px 2px 1px #666;
+    -webkit-box-shadow:0px 0px 2px 1px #666;
+    box-shadow:0px 0px 2px 1px #666;
+    border-radius:2px;
+    z-index:999;
+    margin:25px 0px 0px -40px;
+    display: none;
+}
+a#thoat_login{
+	margin-left: 20px;
+}
+.loginbox h5{
+    width:230px;
+    height:25px;
+    color:#FFF;
+    font-weight:bold;
+    text-align: center;
+    border-bottom: 1px solid #CCC;
+}
+.loginbox ul{
+    width:230px;
+    padding:8px 0px 0px 0px;
+    list-style:none;
+}
+.loginbox ul li{
+    width:230px;
+    padding:2px 0px;
+}
+.loginbox ul li input.bar{
+    width:230px;
+    height:23px;
+}
+.loginbox ul li a.forgot{
+    background:url(../img/forgot.gif) no-repeat 0px 0px;
+    display:inline-block;
+    margin:0px -35px 0px 0px;
+}
+
+.txt_login
+{
+	/*border:1px solid black;*/
+	width: 230px !important;
+}
+#quen_mat_khau{
+	display: none;
+}
+
+#submit_dangnhap
+{
+	margin-left :60px;
+	border-radius:5px;
+	width: 120px;
+	height: 30px;
+}
+.error_login{
+	font-family: 'Times New Roman', Times, serif;
+	margin-left : 20px;
+    font-size: 12px;
+    color: red;
+}
+
+
+/* Xử Lý Form Register*/
+   .registerbox {
+    position:absolute;
+    width:320px;
+    padding:4px;
+    background-color:#fffae7;
+    -moz-box-shadow:0px 0px 2px 1px #666;
+    -webkit-box-shadow:0px 0px 2px 1px #666;
+    box-shadow:0px 0px 2px 1px #666;
+    border-radius:2px;
+    z-index:999;
+   display: none; 
+   margin:25px 0px 0px -120px;
+   
+}
+a#thoat_register{
+	color: red;
+	margin-left: 120px;
+}
+a#thoat_register:hover{
+	color:black;
+}
+.registerbox h5{
+    width:320px;
+    height:25px;
+    color:#FFF;
+    font-weight:bold;
+    text-align: center;
+    border-bottom: 1px solid #CCC;
+}
+.registerbox ul{
+    width:242px;
+    padding:8px 0px 0px 0px;
+    list-style:none;
+}
+.registerbox ul li{
+    width:242px;
+    padding:2px 0px;
+}
+.registerbox ul li input.bar{
+    width:320px;
+    height:23px;
+    float:left;
+    background:#FFF;
+    border:#d3d3d3 solid 1px;
+    border-radius:2px;
+    margin-bottom:5px;
+}
+.registerbox ul li a.forgot{
+    background:url(../img/forgot.gif) no-repeat 0px 0px;
+    padding:0px 0px 0px 16px;
+    display:inline-block;
+    margin:0px 0px 5px 0px;
+}
+.registerbox ul li input.go{
+    float:left;
+    width:58px;
+    padding:4px 0px 5px 0px;
+    border:none;
+    text-align:center;
+    color:#FFF;
+    font-size:12px;
+    font-weight:bold;
+    font-family: 'Ubuntu', sans-serif;
+    display:block;
+    margin:1px 1px 0px 0px;
+    cursor:pointer;
+    border:none;
+    border-radius:2px;
+}
+#submit_dangky
+{
+	margin-left :120px;
+	border-radius:5px;
+	width: 120px;
+	height: 30px;
+}
+#submit_dangky:hover
+{
+	background-color:red;  
+}
+.txt_register
+{
+	/*border:1px solid black;*/
+	width: 300px !important;
+}
+.error_register{
+	font-family: 'Times New Roman', Times, serif;
+	margin-left : 40px;
+    font-size: 12px;
+    color: red;
+}
+
+/*------------------------------------------------------------------*/ 
+/*	2) Slider
+/*------------------------------------------------------------------*/
+#slider{
+	float:left;
+	clear:both;
+	max-width:100% !important;
+	margin-bottom:30px;
+}
+.main-slider {
+	width: 750px !important;
+}
+.slider2, .slider3{
+	display:none;
+}
+/*form login phía right slidebar*/
+.login_input{
+	float:left;
+	width:215px;
+	margin:4px 0;
+	padding:8px 5px;
+	background:none;
+	border:1px solid #dbdbdb;
+	color:#c5c5c5;
+	clear:both;
+}
+
+/*------------------------------------------------------------------*/ 
+/*	3) Content
+/*------------------------------------------------------------------*/
+.main-content{
+	width:512px;
+}
+.outertight{
+	width:236px;
+}
+.outertight img, .wnews li img{
+	max-width:236px;
+}
+.outerwide{
+	width:492px;
+}
+.wnews li{
+	width:492px;
+}
+.block2 li{
+	width:236px;
+}
+
+/*------------------------------------------------------------------*/ 
+/*	3) Comments
+/*------------------------------------------------------------------*/
+.commment-text-wrap{
+	width:370px;
+}
+ul.children li div.commment-text-wrap{
+	width:340px;
+}
+ul.children li li div.commment-text-wrap{
+	width:310px;
+}
+ul.children li li li div.commment-text-wrap{
+	width:280px;
+}
+.form textarea{
+	width:470px;
+}
+}

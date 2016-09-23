@@ -1,0 +1,170 @@
+/*------------------------------------------------------------------*/ 
+/*	2) Note: Design for a width of 480 px
+/*------------------------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/*------------------------------------------------------------------*/ 
+/*	1) Header
+/*------------------------------------------------------------------*/
+.logo{margin-left:0; width:100%; text-align:center;}
+.logo img{
+	width: 400px;
+	height : 100px;
+}
+/*Link Đăng Ký Đăng Nhâp*/
+.righthead {
+    float:right;
+    padding:0px 65px 0px 0px;
+}
+.search{margin:50px 90px 10px 0;}
+.device-menu{ display:block; margin-top:10px;}
+ul.sf-menu { display:none; }
+
+.loginbox {
+    position:absolute;
+    width:230px;
+    padding:4px;
+    background-color:#fffae7;
+    -moz-box-shadow:0px 0px 2px 1px #666;
+    -webkit-box-shadow:0px 0px 2px 1px #666;
+    box-shadow:0px 0px 2px 1px #666;
+    border-radius:2px;
+    z-index:999;
+    margin:25px 0px 0px -40px;
+    display: none;
+}
+a#thoat_login{
+	margin-left: 20px;
+}
+.loginbox h5{
+    width:230px;
+    height:25px;
+    color:#FFF;
+    font-weight:bold;
+    text-align: center;
+    border-bottom: 1px solid #CCC;
+}
+.loginbox ul{
+    width:230px;
+    padding:8px 0px 0px 0px;
+    list-style:none;
+}
+.loginbox ul li{
+    width:230px;
+    padding:2px 0px;
+}
+.loginbox ul li input.bar{
+    width:230px;
+    height:23px;
+}
+.loginbox ul li a.forgot{
+    background:url(../img/forgot.gif) no-repeat 0px 0px;
+    display:inline-block;
+    margin:0px -35px 0px 0px;
+}
+
+.txt_login
+{
+	/*border:1px solid black;*/
+	width: 230px !important;
+}
+#quen_mat_khau{
+	display: none;
+}
+
+#submit_dangnhap
+{
+	margin-left :60px;
+	border-radius:5px;
+	width: 120px;
+	height: 30px;
+}
+.error_login{
+	font-family: 'Times New Roman', Times, serif;
+	margin-left : 20px;
+    font-size: 12px;
+    color: red;
+}
+
+
+/*------------------------------------------------------------------*/ 
+/*	2) Slider
+/*------------------------------------------------------------------*/
+/*------------------------------------------------------------------*/ 
+/*	2) SLIDER
+/*------------------------------------------------------------------*/
+#slider{
+	float:left;
+	clear:both;
+	max-width:100% !important;
+	margin-bottom:30px;
+}
+.main-slider{
+	width: 400px !important;
+	margin:0 10px;
+	height:auto;
+	float:left;
+}
+.slider2, .slider3{
+	display:none;
+}
+/*------------------------------------------------------------------*/ 
+/*	3) Content
+/*------------------------------------------------------------------*/
+.main-content{
+	width:100%;
+}
+.outertight{
+	width:100%;
+	margin-right:0;
+}
+.outertight img{
+	max-width:100%;
+}
+.outerwide{
+	width:100%;
+}
+.wnews li{
+	width:400px;
+}
+.wnews li img{
+	max-width:200px;
+}
+
+.block2 li{
+	width:100%;
+	margin-right:0;
+}
+
+/*form login phía right slidebar*/
+/*Form bên right slidebar*/
+
+/*Form bên right slidebar*/
+/*Form bên right slidebar*/
+
+/*------------------------------------------------------------------*/ 
+/*	3) Comments
+/*------------------------------------------------------------------*/
+.commment-text-wrap{
+	width:280px;
+}
+ul.children li div.commment-text-wrap{
+	width:250px;
+}
+ul.children li li div.commment-text-wrap{
+	width:220px;
+}
+ul.children li li li div.commment-text-wrap{
+	width:190px;
+}
+.form textarea{
+	width:380px;
+}
+
+
+}
+
+#map_lienhe{
+	width: 445px;
+	height: 300px;
+}
